@@ -10,7 +10,7 @@ export default function Home() {
       <header>
       <Header />
       </header>
-      <main className="min-h-screen flex flex-col justify-around mx-44 pt-0">
+      <main className="min-h-screen min-w-screen flex flex-col justify-around mx-5 md:mx-12 lg:mx-44 pt-0">
         <ContainerOne/>
         <ContainerTwo/>
         <ContainerThree/>

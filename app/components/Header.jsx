@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className="header flex justify-between  py-8 mx-44 items-center">
+    <div className="header flex flex-col md:flex-row lg:flex-row justify-between  py-8 md:mx-12 lg:mx-44 items-center">
         <div className="header-left">
         <svg width="49" height="38" viewBox="0 0 49 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.142937 7.3114L23.9557 0.487L48.0589 7.3114L23.5201 13.7002L0.142937 7.3114ZM10.8877 6.7306L12.4849 7.3114L23.5201 3.5362L21.7777 2.9554L10.8877 6.7306Z" fill="#121316"/>
@@ -15,7 +15,7 @@ const Header = () => {
 </svg>        </div>
 <div className="header-right">
     <nav className="mr-4">
-        <ul className="flex justify-evenly gap-16 text-xl font-semibold">
+        <ul className="flex flex-col md:flex-col lg:flex-row justify-evenly gap-16 text-xl font-semibold">
             <li className="cursor-pointer">
                 Products
             </li>

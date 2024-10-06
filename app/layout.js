@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "GFG",
+  title: "GFG RBU",
   description: "Geeks for Geeks",
 };
 
