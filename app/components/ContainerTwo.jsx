@@ -3,7 +3,7 @@ import React from "react";
 const ContainerTwo = () => {
   return (
     <div className="container-two mt-32">
-      <div className="two-up sm:text-3xl font-semibold md:text-4xl lg:text-5xl mb-12">
+      <div className="two-up text-2xl font-semibold md:text-4xl lg:text-5xl mb-12">
         Workshop Features
       </div>
       <div className="two-down flex flex-col gap-5 mt-12">

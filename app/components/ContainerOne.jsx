@@ -9,9 +9,9 @@ const ContainerOne = () => {
           <p className="up-1-left text-black">
             Introducing an era of new and exciting game development
           </p>
-          <p className="up-1-rught text-slate-500">
+          <p className="up-1-rught text-slate-500 flex ">
             {" "}
-            <span className="mx-2">•</span>Read more →
+            <span className="mx-2">•</span><span>Read more →</span>
           </p>
         </div> 
         <p className="text-2xl lg:pr-32 md:text-4xl lg:text-5xl text-wrap font-semibold ">

@@ -4,6 +4,7 @@ import ContainerOne from "./components/ContainerOne";
 import ContainerTwo from "./components/ContainerTwo";
 import ContainerThree from "./components/ContainerThree";
 import ContainerFour from "./components/ContainerFour";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
       <>
@@ -16,6 +17,9 @@ export default function Home() {
         <ContainerThree/>
         <ContainerFour/>
       </main>
+      <Footer>
+        <Footer />
+      </Footer>
          </>
   );
 }
